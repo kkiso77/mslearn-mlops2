@@ -1,6 +1,7 @@
 name: Train model in prod (PR comment)
 
 on:
+  workflow_dispatch:
   issue_comment:
     types: [created]
 
